@@ -1,0 +1,3 @@
+g++ -o alsa_pcm_player alsa_pcm_player.cpp NativeBuffer.cpp -lpthread -lasound -lavcodec -lavdevice -lavfilter -lavformat -lpostproc -lswresample -lswscale -lavutil -lvorbis -lm -lz -lfaac -lmp3lame -lx264 -ltheoraenc -ltheoradec -lxvidcore -lvorbisfile -lvorbisenc -I/usr/include/alsa
+
+
